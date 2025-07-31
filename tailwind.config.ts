@@ -36,6 +36,10 @@ export default {
 					DEFAULT: 'hsl(var(--destructive))',
 					foreground: 'hsl(var(--destructive-foreground))'
 				},
+				success: {
+					DEFAULT: 'hsl(var(--success))',
+					foreground: 'hsl(var(--success-foreground))'
+				},
 				muted: {
 					DEFAULT: 'hsl(var(--muted))',
 					foreground: 'hsl(var(--muted-foreground))'
@@ -52,6 +56,14 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// RPG specific colors
+				gold: 'hsl(var(--gold))',
+				silver: 'hsl(var(--silver))',
+				bronze: 'hsl(var(--bronze))',
+				magic: 'hsl(var(--magic))',
+				health: 'hsl(var(--health))',
+				mana: 'hsl(var(--mana))',
+				energy: 'hsl(var(--energy))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
